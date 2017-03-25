@@ -25,5 +25,5 @@ RUN tar -xvf HElib
 WORKDIR HElib-1.0/src/
 
 COPY index.cpp /HElib-1.0/src/index.cpp
-RUN make index
-RUN ./index
+RUN make index_x
+RUN ./index_x
